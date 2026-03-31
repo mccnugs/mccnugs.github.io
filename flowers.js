@@ -104,8 +104,20 @@ document.addEventListener("DOMContentLoaded", function () {
       f.angle += f.angularVelocity;
 
       // window boundary bounce
-      if (f.x <= 0 || f.x + f.size >= window.innerWidth) f.vx *= -1;
-      if (f.y <= 0 || f.y + f.size >= window.innderHeight) f.vy *= -1;
+      if (f.x <= 0) {
+         f.x = 0;
+         f.vx *= -1;
+      } else if (f.x + f.size >= window.innerWidth - 5) {
+         f.x = window.innerWidth - f.size - 5;
+         f.vx *= -1;
+      }
+      if (f.y <= 0) {
+         f.y = 0;
+         f.vy *= -1;
+      } else if (f.y + f.size >= window.innerHeight - 5) {
+         f.y = window.innerHeight - f.size - 5;
+         f.vy *= -1;
+      }
 
       // collision with other flowers
       for(let j = i+1; j < flowers.length; j++){
