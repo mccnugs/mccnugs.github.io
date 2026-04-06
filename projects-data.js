@@ -30,5 +30,44 @@ const projects = {
     year: "2024",
     type: "Short Film",
     role: "Director, Cinematographer, Editor"
-  }
+  },
+  "the-ocean": {
+    title: "The Ocean",
+    videoID: "pauYVC6Yszg",
+    description: "<p>A short film examining transitions between physical and digital spaces. Threshold utilizes experimental audio mixing to guide the narrative.</p>",
+    year: "2024",
+    type: "Short Film",
+    role: "Director, Cinematographer, Editor"
+    },
+  "casanova": {
+    title: "Casanova",
+    videoID: "gNZg9PvZBFU",
+    description: "<p>A short film examining transitions between physical and digital spaces. Threshold utilizes experimental audio mixing to guide the narrative.</p>",
+    year: "2025",
+    type: "Short Documentary",
+    role: "Director, Cinematographer, Editor"
+    },
+  "Habitat": {
+    title: "Habitat For Humanity",
+    videoID: "wuLdPKLe8xk",
+    description: "<p>A short documentary made for Habitat for Humanity SGV as part of a fundraising campaign. Made during a media production internship.</p>",
+    year: "2025",
+    type: "Short Documentary",
+    role: "Director, Cinematographer, Editor"
+    },
+  "Somethingnew": {
+    title: "Something New",
+    videoID: "SB77HtowTtE",
+    description: "<p>A short documentary made for Habitat for Humanity SGV as part of a fundraising campaign. Made during a media production internship.</p>",
+    year: "2025",
+    type: "Short Film",
+    role: "Director, Cinematographer, Editor"
+	},
+  "bluesky": {
+    title: "Mt. Blue Sky",
+    videoID: "WOGYqrnlbFQ",
+    description: "<p>A short documentary made for Habitat for Humanity SGV as part of a fundraising campaign. Made during a media production internship.</p>",
+    year: "2025",
+    type: "Short Film",
+    role: "Director, Cinematographer, Editor"
 };
