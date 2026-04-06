@@ -70,4 +70,5 @@ const projects = {
     year: "2025",
     type: "Short Film",
     role: "Director, Cinematographer, Editor"
-};
+}
+}
