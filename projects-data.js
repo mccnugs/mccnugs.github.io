@@ -42,7 +42,7 @@ const projects = {
   "casanova": {
     title: "Casanova",
     videoID: "gNZg9PvZBFU",
-    description: "<p>A short film examining transitions between physical and digital spaces. Threshold utilizes experimental audio mixing to guide the narrative.</p>",
+    description: "<p>Casanova is a short documentary about the life of wrestler Johnny Casanova. I produced the film in the spring of 2025 for a senior level documentary class. The film was shot entirely in one day after reaching out to many wrestlers via the internet. I captured the stories of many different wrestlers at the event and only until the edit, decided on focusing on Casanova. His story stood out as very captivating and humanistic, which is the type of stories that I very much enjoy capturing. I shot the entire film myself on the Sony a6700 and a single kit lens with some production assistance from a fellow student. I spent a while editing the film, as it became very tricky to create a flowing story with the footage we had. I scored a section of the film myself, but if I had more time I would create another song for the final sequence.</p>",
     year: "2025",
     type: "Short Documentary",
     role: "Director, Cinematographer, Editor"
