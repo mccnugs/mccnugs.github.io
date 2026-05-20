@@ -134,14 +134,15 @@
       color: var(--border);
       margin-top: 0.5rem;
     }
-    .project-content {
-      flex: 1;
-      padding: 4rem;
-      max-width: 2000px;
-	  margin: 0 auto;
-    }
+ .project-content {
+  flex: 1;
+  padding: 4rem;
+  max-width: 2000px;
+  margin: 0 auto;
+}
     .video-embed {
       width: 100%;
+	  max-width: 960px;
       aspect-ratio: 16/9;
       background: #ebebeb;
       border-radius: 12px;
@@ -149,7 +150,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-bottom: 0 auto 2.5rem auto;
+      margin-bottom: 2.5rem;
       overflow: hidden;
       opacity: 0;
       transform: translateY(20px);
@@ -170,6 +171,7 @@
       font-size: 1.05rem;
       line-height: 1.8;
       color: var(--text);
+	  max-width: 960px;
       margin-bottom: 1.5rem;
     }
     .project-meta {
@@ -214,7 +216,10 @@
 .nav-toggle-label { display: none; }
 
 @media (max-width: 600px) {
-  header {
+   .project-content {
+    grid-template-columns: 1fr;
+  }
+	header {
     padding: 1rem 1.2rem;
     flex-wrap: wrap;
     align-items: center;
